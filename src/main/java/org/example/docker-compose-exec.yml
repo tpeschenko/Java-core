@@ -1,0 +1,7 @@
+services:
+  app:
+    image: openjdk
+    command: java -classpath .\out org.example.Main
+
+    volumes:
+      - ./bin:/out

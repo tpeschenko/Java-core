@@ -1,0 +1,8 @@
+services:
+  app:
+    image: openjdk
+    command: javac -sourcepath .\src\main\java .\src\main\java\org\example\Main.java
+
+    volumes:
+      - ./bin:/out
+      - ./src:/src
