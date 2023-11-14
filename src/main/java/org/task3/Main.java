@@ -21,7 +21,9 @@ public class Main {
 
         Supervisor.riseSalary(allEmployee, 50);
 
-        System.out.println(employee1.getSalary());
+        System.out.println(supervisor1.getSalary());
+
+
 
 
 
